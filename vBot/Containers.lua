@@ -539,3 +539,15 @@ end)
 
 UI.Separator()
 -- teste
+onTextMessage(function(mode, text)
+    if mode == 20 and text:find("You see") then
+        if not modules.game_interface.gameMapPanel.mousePos then return end
+        local tile = modules.game_interface.gameMapPanel:getTile(modules.game_interface.gameMapPanel.mousePos)
+        if tile then
+            local loc = tile:getPosition()
+            error("Position: " .. loc.x.. ", "..loc.y..", "..loc.z) -- remove this if you don't want it showing on bot
+            if not modules.game_textmessage then return end
+            modules.game_textmessage.displayMessage(16, "position: " .. loc.x.. ", "..loc.y..", "..loc.z)
+        end
+    end
+end)
