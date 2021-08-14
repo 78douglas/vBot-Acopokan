@@ -1,0 +1,417 @@
+{
+  "sendHotkey": "F10",
+  "foodItems": [
+    {
+      "count": 57,
+      "id": 3731
+    },
+    {
+      "id": 3607,
+      "count": 1
+    },
+    {
+      "id": 3585,
+      "count": 1
+    },
+    {
+      "id": 3592,
+      "count": 1
+    },
+    {
+      "id": 3600,
+      "count": 1
+    },
+    {
+      "id": 3601,
+      "count": 1
+    }
+  ],
+  "specialDeposit": {
+    "items": [
+
+    ]
+  },
+  "ingame_hotkeys": "onTextMessage(function(mode, text)\n    if mode == 20 then\n        if not modules.game_interface.gameMapPanel.mousePos then return end\n        local tile = modules.game_interface.gameMapPanel:getTile(modules.game_interface.gameMapPanel.mousePos)\n        if tile then\n            local loc = tile:getPosition()\n            error(\"Position: \" .. loc.x.. \", \"..loc.y..\", \"..loc.z)\n            if not modules.game_textmessage then return end\n            modules.game_textmessage.displayMessage(16, \"position: \" .. loc.x.. \", \"..loc.y..\", \"..loc.z)\n        end\n    end\nend)",
+  "accessKey": "123",
+  "friendName": "Friend Name",
+  "jewelleryEquipper": {
+    "ringMin": 30,
+    "ammyMin": 30,
+    "safe": true,
+    "valueAmmy": false,
+    "ammyId": 3081,
+    "ringMax": 80,
+    "valueRing": false,
+    "ringId": 3048,
+    "ammySwitch": true,
+    "safeMin": 29,
+    "ringValue": "HP",
+    "ringSwitch": true,
+    "ammyMax": 80,
+    "ammyValue": "HP"
+  },
+  "attackbot": [
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "pvpMode": false,
+      "Kills": false,
+      "KillsAmount": 1,
+      "Cooldown": true,
+      "ignoreMana": true,
+      "enabled": false,
+      "name": "Linda",
+      "Rotate": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "pvpMode": false,
+      "Kills": false,
+      "KillsAmount": 1,
+      "Cooldown": true,
+      "ignoreMana": true,
+      "enabled": false,
+      "name": "Profile #2",
+      "Rotate": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "pvpMode": false,
+      "Kills": false,
+      "KillsAmount": 1,
+      "Cooldown": true,
+      "ignoreMana": true,
+      "enabled": false,
+      "name": "Profile #3",
+      "Rotate": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "pvpMode": false,
+      "Kills": false,
+      "KillsAmount": 1,
+      "Cooldown": true,
+      "ignoreMana": true,
+      "enabled": false,
+      "name": "Profile #4",
+      "Rotate": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "pvpMode": false,
+      "Kills": false,
+      "KillsAmount": 1,
+      "Cooldown": true,
+      "ignoreMana": true,
+      "enabled": false,
+      "name": "Profile #5",
+      "Rotate": false
+    }
+  ],
+  "minLevel": 100,
+  "FollowFriend": "Salvia Weed",
+  "advancedFriendHealer": {
+    "itemHeal": false,
+    "healEd": false,
+    "id": 3160,
+    "healRp": false,
+    "exuraSio": false,
+    "healMs": false,
+    "minMana": 60,
+    "exuraGranSio": false,
+    "customSpell": false,
+    "healEk": false,
+    "exuraMasRes": false,
+    "distance": 8,
+    "minFriendHp": 40,
+    "customSpellName": "exura max sio"
+  },
+  "autoTradeMessage": "I'm using OTClientV8!",
+  "friend1Name": "Friend Name",
+  "BotServerChannel": "3737035633956",
+  "combobot": {
+    "attackSpellEnabled": false,
+    "attackLeaderTargetEnabled": false,
+    "onShootEnabled": false,
+    "item": 3155,
+    "serverLeaderTarget": false,
+    "onCastEnabled": false,
+    "serverEnabled": true,
+    "attack": "",
+    "onSayEnabled": false,
+    "sayLeader": "",
+    "spell": "",
+    "shootLeader": "",
+    "attackItemToggle": false,
+    "followLeaderEnabled": false,
+    "commandsEnabled": true,
+    "sayPhrase": "",
+    "serverTriggers": true,
+    "serverLeader": "Druidinha Acopokan",
+    "enabled": false,
+    "follow": "",
+    "castLeader": ""
+  },
+  "extras": {
+    "rope": 3003,
+    "bless": true,
+    "machete": 9596,
+    "holdMwall": true,
+    "checkPlayer": false,
+    "looting": 40,
+    "suppliesControl": false,
+    "useAll": "space",
+    "lootLast": false,
+    "shovel": 3457,
+    "autoOpenDoors": true,
+    "stake": false,
+    "scythe": 9596,
+    "oberon": false,
+    "antiKick": true,
+    "talkDelay": 800,
+    "killUnder": 30,
+    "title": true,
+    "reUse": false,
+    "huntRoutes": 50,
+    "timers": true
+  },
+  "_macros": {
+    "": true,
+    "Follow": false,
+    "heal friend": false,
+    "Follow Leader": false,
+    "follow target": false,
+    "Eat Food": true,
+    "ExetaIfPlayer": true,
+    "Enable ComboBot": false,
+    "Click ReUse": false,
+    "Monster HP %": false,
+    "Summon": true,
+    "Auto Open Bag": true,
+    "Cordinates": true,
+    "Party Leader Hunt": false,
+    "Cast Food": false
+  },
+  "lootStatus": "",
+  "openMin": false,
+  "quiverManager": {
+    "arrows": false,
+    "boltsId": 35849,
+    "arrowsId": 35848,
+    "bolts": false
+  },
+  "maxLevel": 1000,
+  "caveBotTasker": {
+    "max": 0,
+    "monster": "",
+    "inProgress": false,
+    "count": 0,
+    "taskName": ""
+  },
+  "defaultTabCombo": "123",
+  "comboUE": "Spell",
+  "autoParty": {
+    "enabled": false,
+    "autoPartyList": [
+      "*"
+    ],
+    "leaderName": "Druidinha Acopokan"
+  },
+  "clearing": false,
+  "comboRune": "RuneID",
+  "_configs": {
+    "targetbot_configs": {
+      "selected": "kina",
+      "enabled": true
+    },
+    "cavebot_configs": {
+      "selected": "fica",
+      "enabled": true
+    }
+  },
+  "autoEquip": [
+    {
+      "item1": 3052,
+      "title": "Auto Equip",
+      "item2": 3089,
+      "on": false,
+      "slot": 9
+    },
+    {
+      "item1": 0,
+      "title": "Auto Equip",
+      "item2": 0,
+      "on": false,
+      "slot": 0
+    }
+  ],
+  "currentBotProfile": 3,
+  "BOTserver": {
+    "manaInfo": true,
+    "mwallInfo": true,
+    "mwalls": {
+      "32339,32225,7": 52557428,
+      "32336,32212,7": 52249274,
+      "33120,32810,7": 38695468,
+      "32337,32225,7": 52557428,
+      "32338,32220,7": 52553864,
+      "33123,32828,7": 38687342,
+      "32348,32216,7": 52562591,
+      "32340,32225,7": 52559391,
+      "33125,32828,7": 38684366,
+      "32336,32225,7": 52557428,
+      "32338,32225,7": 52557335,
+      "32339,32220,7": 52553985,
+      "33121,32811,7": 45790984,
+      "32337,32220,7": 52553985,
+      "32336,32220,7": 52553864,
+      "33119,32826,7": 38708316,
+      "33120,32816,7": 38697611,
+      "33130,32827,7": 45795871,
+      "32330,32217,7": 52243950,
+      "32327,32219,7": 52248803,
+      "32335,32212,7": 52249487,
+      "33120,32822,7": 45793261,
+      "32337,32222,7": 52251239,
+      "32347,32217,7": 52533863
+    },
+    "outfit": true,
+    "broadcasts": true,
+    "vocation": true
+  },
+  "autofollow": {
+    "player": "lia acopokan"
+  },
+  "pushmax": {
+    "pushMaxRuneId": 3188,
+    "mwallBlockId": 2128,
+    "pushDelay": 1060,
+    "enabled": true,
+    "pushMaxKey": "PageUp"
+  },
+  "bestHeal": 1125,
+  "dropper": {
+    "enabled": false,
+    "trashItems": [
+      {
+        "count": 1,
+        "id": 283
+      },
+      {
+        "count": 1,
+        "id": 284
+      },
+      {
+        "count": 1,
+        "id": 285
+      }
+    ],
+    "useItems": [
+      {
+        "count": 1,
+        "id": 21203
+      },
+      {
+        "count": 1,
+        "id": 14758
+      }
+    ],
+    "capItems": [
+      {
+        "count": 1,
+        "id": 21175
+      }
+    ]
+  },
+  "alarms": {
+    "playerDetected": false,
+    "healthValue": 40,
+    "playerDetectedLogout": false,
+    "playerAttack": false,
+    "manaBelow": false,
+    "privateMessage": false,
+    "healthBelow": false,
+    "enabled": false,
+    "manaValue": 50,
+    "creatureDetected": false
+  },
+  "playerList": {
+    "enemyList": [
+
+    ],
+    "outfits": false,
+    "groupMembers": true,
+    "marks": false,
+    "highlight": false,
+    "blackList": [
+
+    ],
+    "friendList": [
+
+    ]
+  },
+  "bestHit": 1401,
+  "renameContainers": {
+    "purse": true,
+    "enabled": false,
+    "list": [
+      {
+        "items": [
+          3081,
+          3048
+        ],
+        "value": "Main Backpack",
+        "item": 9601,
+        "min": false,
+        "enabled": true
+      },
+      {
+        "items": [
+          3161,
+          3180
+        ],
+        "value": "Runes",
+        "item": 2866,
+        "min": true,
+        "enabled": true
+      },
+      {
+        "items": [
+          3031,
+          3035,
+          3043
+        ],
+        "value": "Money",
+        "item": 2871,
+        "min": true,
+        "enabled": true
+      },
+      {
+        "items": [
+
+        ],
+        "value": "Purse",
+        "item": 23396,
+        "min": true,
+        "enabled": true
+      }
+    ],
+    "all": true
+  },
+  "comboLeader": "Name",
+  "comboType": "ue"
+}
